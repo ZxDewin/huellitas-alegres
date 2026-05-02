@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Hueliitas Alegres - Guardería Canina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🐾 Hueliitas Alegres</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a Hueliitas Alegres</h1>
+            <p>La mejor guardería canina de la ciudad</p>
+            <p class="subtitle">Cuidado profesional y amor para tu perrito</p>
+            <a href="#reservas" class="cta-button">Hacer una Reserva</a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="icon">🏠</div>
+                    <h3>Guardería Diaria</h3>
+                    <p>Cuidado completo de tu perro durante el día. Juegos, ejercicio y socialización.</p>
+                    <p class="precio">$45.0000/día</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🛏️</div>
+                    <h3>Hospedaje 24h</h3>
+                    <p>Hospedaje completo incluyendo alimentación, cuidados y entretenimiento.</p>
+                    <p class="precio">$120.000/noche</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🚿</div>
+                    <h3>Baño y Aseo</h3>
+                    <p>Servicio de baño profesional con productos de calidad para la piel de tu perro.</p>
+                    <p class="precio">$60.000/sesión</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🎾</div>
+                    <h3>Entrenamiento</h3>
+                    <p>Sesiones de entrenamiento básico y avanzado con profesionales certificados.</p>
+                    <p class="precio">$50.000/sesión</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🏃</div>
+                    <h3>Paseos Diarios</h3>
+                    <p>Paseos supervisados con ejercicio controlado y seguro para tu mascota.</p>
+                    <p class="precio">$15.000/paseo</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🎂</div>
+                    <h3>Eventos Especiales</h3>
+                    <p>Organización de fiestas de perros, playdates y actividades especiales.</p>
+                    <p class="precio">Consultar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros" class="sobre-nosotros">
+        <div class="container">
+            <h2>Sobre Hueliitas Alegres</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>¿Por qué elegirnos?</h3>
+                    <ul>
+                        <li>✓ Equipo profesional y certificado</li>
+                        <li>✓ Instalaciones modernas y seguras</li>
+                        <li>✓ Atención personalizada para cada perro</li>
+                        <li>✓ Cámaras de vigilancia 24/7</li>
+                        <li>✓ Seguros y veterinarios disponibles</li>
+                        <li>✓ Experiencia de más de 10 años</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>500+</h4>
+                        <p>Perros Felices</p>
+                    </div>
+                    <div class="stat">
+                        <h4>98%</h4>
+                        <p>Satisfacción</p>
+                    </div>
+                    <div class="stat">
+                        <h4>24/7</h4>
+                        <p>Disponibilidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="reservas">
+        <div class="container">
+            <h2>Hacer una Reserva</h2>
+            <form class="reserva-form" id="reservaForm">
+                <div class="form-group">
+                    <label for="nombre">Tu Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre-perro">Nombre del Perrito</label>
+                    <input type="text" id="nombre-perro" name="nombre-perro" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="raza">Raza</label>
+                    <input type="text" id="raza" name="raza" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="edad">Edad (años)</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="servicio">Servicio</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="guarderia">Guardería Diaria</option>
+                        <option value="hospedaje">Hospedaje 24h</option>
+                        <option value="bano">Baño y Aseo</option>
+                        <option value="entrenamiento">Entrenamiento</option>
+                        <option value="paseos">Paseos Diarios</option>
+                        <option value="eventos">Eventos Especiales</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="sesiones">Sesiones</label>
+                    <input type="number" id="sesiones" name="sesiones" value="1" min="1" required>
+                </div>
+
+                <div class="form-group precio-total-group">
+                    <label>Precio Total</label>
+                    <div id="precioTotal" class="precio-total">COP $0</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Fecha de Inicio</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="duracion">Duración (días)</label>
+                    <input type="number" id="duracion" name="duracion" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notas">Notas Adicionales</label>
+                    <textarea id="notas" name="notas" rows="4" placeholder="Información sobre alergias, medicamentos, preferencias, etc."></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar Reserva</button>
+                <div id="mensaje-exito" class="mensaje-exito"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contacto-grid">
+                <div class="contacto-item">
+                    <div class="icon">📍</div>
+                    <h3>Ubicación</h3>
+                    <p>Calle 32 #7-45<br>Centro Histórico, Cartagena de Indias, 130001</p>
+                </div>
+                <div class="contacto-item">
+                    <div class="icon">📞</div>
+                    <h3>Teléfono</h3>
+                    <p>+57 3104119101<br>Lunes a Domingo, 8am-8pm</p>
+                </div>
+                <div class="contacto-item">
+                    <div class="icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>lunadewin52@gmail.com<br>reservas@huellitasalegres.com</p>
+                </div>
+                <div class="contacto-item">
+                    <div class="icon">🌐</div>
+                    <h3>Redes Sociales</h3>
+                    <p>@Dewinzx<br>Hueliitas Alegres Guardería</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Hueliitas Alegres. Todos los derechos reservados. 🐾</p>
+            <p>Hecho con amor por Dewiin Luna, para los perros más felices de la ciudad.</p>
+        </div>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
